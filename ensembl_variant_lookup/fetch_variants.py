@@ -258,4 +258,4 @@ def visualize_gene_variants():
 
 if __name__ == '__main__':
     # Run the app with your host ip and port
-    app.run(host='0.0.0.0', port=8081, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
