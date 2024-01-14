@@ -59,19 +59,19 @@ pip install ensembl-variant-lookup
 
 ![Single Variant Lookup](https://github.com/danymukesha/ensembl-variant-lookup/assets/45208254/41eef323-9df1-4ea4-af83-6be9938259bc)
 
-*Caption: Screenshot of the Single Variant Lookup interface.*
+***Caption 2:*** *Screenshot of the Single Variant Lookup interface.*
 
 ---
 
 ![Batch Variant Lookup](https://github.com/danymukesha/ensembl-variant-lookup/assets/45208254/395d479d-5bc1-4d26-8214-a3b07068e10a)
 
-***Caption:*** *Screenshot of the Batch Variant Lookup interface.*
+***Caption 3:*** *Screenshot of the Batch Variant Lookup interface.*
 
-===
+---
 
 ![Gene Lookup](https://github.com/danymukesha/ensembl-variant-lookup/assets/45208254/58c6c7f0-b2d3-42ea-a149-1835e9a06f7a)
 
-*Caption: Screenshot of the Gene Lookup interface.*
+***Caption 4:*** *Screenshot of the Gene Lookup interface.*
 
 ---
 
