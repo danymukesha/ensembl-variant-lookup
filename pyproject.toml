@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "ensembl-variant-lookup"
 version = "0.1.0"
-description = ""
+description = "Python tool built for a user-friendly interface for searching individual variants, batch queries, and exploring gene regions from the Ensembl database."
 authors = ["Dany Mukesha <danymukesha@gmail.com>"]
 readme = "README.md"
 packages = [{include = "ensembl_variant_lookup"}]
