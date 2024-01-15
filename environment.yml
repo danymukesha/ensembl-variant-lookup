@@ -1,0 +1,10 @@
+name: flask-app
+channels:
+  - defaults
+dependencies:
+  - python
+  - flask
+  - requests
+  - pandas
+  - plotly
+  - rpy2
