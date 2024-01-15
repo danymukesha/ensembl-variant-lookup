@@ -12,6 +12,29 @@
 -   **Batch Variant Lookup:** Perform batch searches by entering a list of RSIDs and obtaining information for multiple variants simultaneously.
 -   **Gene Lookup:** Fetch information about a specific gene, including details on associated variants.
 
+Simplified illustration at high-level of API exposed in thie application, it includes all the API endpoints in the diagram:
+
+```mermaid
+graph TD
+  A[User's Browser] -->|GET /| B[Flask Application]
+  B -->|GET /| C[Render index.html]
+  C -->|Form Submission| D[Flask Application]
+  D -->|POST /batch| E[Render batch_results.html]
+  C -->|Form Submission| F[Flask Application]
+  F -->|POST /visualize| G[Render visualization.html]
+  C -->|Form Submission| H[Flask Application]
+  H -->|POST /variant| I[Render variant_results.html]
+  C -->|GET /gene_region| J[Flask Application]
+  J -->|GET /gene_region| K[Render gene_region_results.html]
+```
+
+This flowchart now includes the following API endpoints:
+
+- `/batch` (POST): Batch search for variants by rsid list.
+- `/variant` (POST): Search for variants by rsid.
+- `/gene_region` (GET): Search for variants in a gene region.
+- `/visualize` (POST): Visualize variants for a specific gene.
+
 ## Installation
 
 Use `pip` to install the Ensembl Variant Lookup package.
@@ -74,6 +97,9 @@ pip install ensembl-variant-lookup
 ***Caption 4:*** *Screenshot of the Gene Lookup interface.*
 
 ---
+
+
+
 
 ## Contributing
 
