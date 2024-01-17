@@ -240,6 +240,6 @@ def variants_in_region(chrom, start, end):
     variant_data = get_variants_in_region(chrom, start, end)
     return jsonify(variant_data)
 
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
-

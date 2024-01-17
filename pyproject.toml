@@ -20,3 +20,9 @@ requests-mock = "^1.11.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[project.scripts]
+cli-get_variants_by_rsid = "ensembl-variant-lookup.ensembl_variant_lookup:get_variants_by_rsid"
+
+[tool.poetry.scripts]
+build = "ensembl_variant_lookup.pyinstaller:install"
