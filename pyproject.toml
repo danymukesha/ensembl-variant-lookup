@@ -9,13 +9,18 @@ keywords = ["api", "variant", "genomics-data", "ensembl-rest", "danymukesha"]
 packages = [{include = "ensembl_variant_lookup"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.11,<3.12"
 flask = "^2.0"
 requests = "^2.26"
 
 [tool.poetry.group.test.dependencies]
+pyinstaller = "^5.5"
 pytest = "^7.4.4"
 requests-mock = "^1.11.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "5.5"
 
 [build-system]
 requires = ["poetry-core"]

@@ -8,3 +8,4 @@ dependencies:
   - pandas
   - plotly
   - rpy2
+  - pyinstaller
