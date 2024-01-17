@@ -1,7 +1,7 @@
 # ensembl_variants_lookup/api/visualization.py
 from flask import render_template, request
-from utils.gene_helpers import get_gene_coordinates, get_variants_in_region
-from api.variant_lookup import visualize_variants
+from ensembl_variant_lookup.utils.gene_helpers import get_gene_coordinates, get_variants_in_region
+from ensembl_variant_lookup.api.variant_lookup import visualize_variants
 
 def visualize_gene_variants():
     if request.method == 'POST':

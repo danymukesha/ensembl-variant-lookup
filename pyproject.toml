@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ensembl-variant-lookup"
-version = "0.1.2"
+version = "0.1.3"
 description = "a user-friendly interface for searching individual variants, batch queries, and exploring gene regions from the Ensembl database."
 authors = ["Dany Mukesha <danymukesha@gmail.com>"]
 homepage = "https://github.com/danymukesha/ensembl-variant-lookup"

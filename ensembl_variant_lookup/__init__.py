@@ -1,7 +1,4 @@
 # ensembl_variant_lookup/__init__.py
+__version__ = '1.0.3'
 
-from flask import Flask
-
-app = Flask(__name__)
-
-from ensembl_variant_lookup import fetch_variants
+from ensembl_variant_lookup import  *

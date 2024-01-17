@@ -1,7 +1,7 @@
 # ensembl_variants_lookup/api/gene_info.py
 from flask import jsonify, request, render_template
 import requests
-from utils.gene_helpers import get_variants_in_region
+from ensembl_variant_lookup.utils.gene_helpers import get_variants_in_region
 
 def gene_region_search():
     variant_data = None

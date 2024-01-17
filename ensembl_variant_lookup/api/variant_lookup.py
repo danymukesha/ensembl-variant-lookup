@@ -1,6 +1,6 @@
 # ensembl_variants_lookup/api/variant_lookup.py
 from flask import jsonify, request, render_template
-from utils.variant_helpers import get_variants_by_rsid, get_variants_by_rsid_list
+from ensembl_variant_lookup.utils.variant_helpers import get_variants_by_rsid, get_variants_by_rsid_list
 
 def batch_search():
     variant_data = None

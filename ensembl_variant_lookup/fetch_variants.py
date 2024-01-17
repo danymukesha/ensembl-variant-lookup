@@ -2,12 +2,12 @@
 from flask import Flask, render_template, request, jsonify
 import os
 import requests
-from api.variant_lookup import batch_search, variant_search, get_variants_by_rsid
-from api.gene_info import get_gene_coordinates, get_variants_in_region, gene_region_search
-from api.visualization import visualize_gene_variants
+from ensembl_variant_lookup.api.variant_lookup import batch_search, variant_search, get_variants_by_rsid
+from ensembl_variant_lookup.api.gene_info import get_gene_coordinates, get_variants_in_region, gene_region_search
+from ensembl_variant_lookup.api.visualization import visualize_gene_variants
 
 
-app = Flask(__name__, template_folder=os.path.abspath('templates'), static_url_path='/static')
+app = Flask(__name__)
 
 @app.route('/', methods=['GET','POST'])
 def index_route():

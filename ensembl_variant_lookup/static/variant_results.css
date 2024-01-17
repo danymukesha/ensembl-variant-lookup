@@ -1,5 +1,10 @@
 /* variant_results.css */
 
+h1 {
+    color: #333;
+    text-align: center;
+}
+
 form {
     margin-bottom: 20px;
     text-align: center;
